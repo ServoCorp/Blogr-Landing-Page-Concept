@@ -1,0 +1,46 @@
+//Imports
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+//Color Table
+
+//Primary
+$lightRed: hsl(356, 100%, 66%); //CTA text
+$veryLightRed: hsl(355, 100%, 74%); //CTA hover background
+$veryDarkBlue: hsl(208, 49%, 24%); //headings
+
+//Neutral
+$white: hsl(0, 0%, 100%); //text
+$grayishBlue: hsl(240, 2%, 79%); //footer text
+$veryDarkGrayishBlue: hsl(207, 13%, 34%); //Body Copy
+$veryDarkBlackBlue: hsl(240, 10%, 16%); // footer background
+* {
+    margin: 0;
+}
+
+//#ff4457
+
+.container {
+    background: linear-gradient(90deg, rgba(255,140,115,1) 21%, rgba(255,68,87,1) 97%);
+    //background-image: url("../img/bg-pattern-intro.svg");
+
+    img {
+        width: 7vw;
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+    }
+
+    li {
+        padding-right: 2vw;
+    }
+
+
+    .nav {
+        display: flex;
+        padding: 5vh 0vw 7vh 10vh;
+    }
+
+}

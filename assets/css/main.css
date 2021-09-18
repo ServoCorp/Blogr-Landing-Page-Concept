@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+}
+
+.container {
+  background: -webkit-gradient(linear, left top, right top, color-stop(21%, #ff8c73), color-stop(97%, #ff4457));
+  background: linear-gradient(90deg, #ff8c73 21%, #ff4457 97%);
+}
+
+.container img {
+  width: 7vw;
+}
+
+.container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.container li {
+  padding-right: 2vw;
+}
+
+.container .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5vh 0vw 7vh 10vh;
+}
+/*# sourceMappingURL=main.css.map */
