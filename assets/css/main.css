@@ -17,6 +17,8 @@
   display: -ms-flexbox;
   display: flex;
   list-style: none;
+  -webkit-transform: translateY(30%);
+          transform: translateY(30%);
 }
 
 .container li {
@@ -28,5 +30,37 @@
   display: -ms-flexbox;
   display: flex;
   padding: 5vh 0vw 7vh 10vh;
+}
+
+.container .endButtons {
+  -webkit-transform: translateY(2.5%);
+          transform: translateY(2.5%);
+}
+
+.container a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+}
+
+.container .platformText {
+  text-align: center;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+.container p {
+  text-align: center;
+  color: white;
+  font-family: 'Overpass', sans-serif;
+}
+
+.container .signUp {
+  width: 7vw;
+  height: 5vh;
+  border-radius: 40px 40px 40px 40px;
+  border: black;
 }
 /*# sourceMappingURL=main.css.map */

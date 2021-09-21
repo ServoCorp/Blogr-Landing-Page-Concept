@@ -31,16 +31,46 @@ $veryDarkBlackBlue: hsl(240, 10%, 16%); // footer background
     ul {
         display: flex;
         list-style: none;
+        transform: translateY(30%);
     }
 
     li {
         padding-right: 2vw;
     }
 
-
     .nav {
         display: flex;
         padding: 5vh 0vw 7vh 10vh;
+    }
+
+    .endButtons {
+        transform: translateY(2.5%);
+    }
+
+    a {
+        color: $white;
+        text-decoration: none;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 500;
+    }
+
+    .platformText {
+            text-align: center;
+            font-family: 'Overpass', sans-serif;
+            font-weight: 600;
+            color: $white;
+    }
+    p {
+        text-align: center;
+        color: $white;
+        font-family: 'Overpass', sans-serif;
+    }
+
+    .signUp {
+        width: 7vw;
+        height: 5vh;
+        border-radius: 40px 40px 40px 40px;
+        border: black;
     }
 
 }
