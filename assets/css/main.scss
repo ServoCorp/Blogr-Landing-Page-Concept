@@ -23,6 +23,12 @@ $veryDarkBlackBlue: hsl(240, 10%, 16%); // footer background
 .container {
     background: linear-gradient(90deg, rgba(255,140,115,1) 21%, rgba(255,68,87,1) 97%);
     //background-image: url("../img/bg-pattern-intro.svg");
+    border-radius: 0 0 0 115px;
+
+
+    .main {
+        padding-top: 8vh;
+    }
 
     img {
         width: 7vw;
@@ -31,7 +37,8 @@ $veryDarkBlackBlue: hsl(240, 10%, 16%); // footer background
     ul {
         display: flex;
         list-style: none;
-        transform: translateY(30%);
+        line-height: 75px;
+        text-align: center;
     }
 
     li {
@@ -44,7 +51,8 @@ $veryDarkBlackBlue: hsl(240, 10%, 16%); // footer background
     }
 
     .endButtons {
-        transform: translateY(2.5%);
+        line-height: 75px;
+        text-align: center;
     }
 
     a {
@@ -59,11 +67,20 @@ $veryDarkBlackBlue: hsl(240, 10%, 16%); // footer background
             font-family: 'Overpass', sans-serif;
             font-weight: 600;
             color: $white;
+            font-size: 60px;
     }
     p {
         text-align: center;
         color: $white;
         font-family: 'Overpass', sans-serif;
+        font-size: 16px;
+        padding-top: 3vh;
+    }
+
+    .buttonBottom {
+        text-align: center;
+        padding-top: 5vh;
+        padding-bottom: 12vh;
     }
 
     .signUp {
@@ -71,6 +88,31 @@ $veryDarkBlackBlue: hsl(240, 10%, 16%); // footer background
         height: 5vh;
         border-radius: 40px 40px 40px 40px;
         border: black;
+    }
+    .platformButtonA {
+        height: 6vh;
+        width: 7vw;
+        border-radius: 40px 40px 40px 40px;
+        font-size: 16px;
+        font-family: 'Overpass', sans-serif;
+        font-weight: 600;
+        background: #fff;
+        color: #ff8c73;
+        border-color: #ff8c73;
+        border-style: solid;
+
+    }
+    .platformButtonB {
+        height: 6vh;
+        width: 7vw;
+        border-radius: 40px 40px 40px 40px;
+        font-size: 16px;
+        font-family: 'Overpass', sans-serif;
+        font-weight: 600;
+        background: #ffffff00;
+        color: #fff;
+        border-color: #fff;
+        border-style: solid;
     }
 
 }

@@ -6,6 +6,11 @@
 .container {
   background: -webkit-gradient(linear, left top, right top, color-stop(21%, #ff8c73), color-stop(97%, #ff4457));
   background: linear-gradient(90deg, #ff8c73 21%, #ff4457 97%);
+  border-radius: 0 0 0 115px;
+}
+
+.container .main {
+  padding-top: 8vh;
 }
 
 .container img {
@@ -17,8 +22,8 @@
   display: -ms-flexbox;
   display: flex;
   list-style: none;
-  -webkit-transform: translateY(30%);
-          transform: translateY(30%);
+  line-height: 75px;
+  text-align: center;
 }
 
 .container li {
@@ -33,8 +38,8 @@
 }
 
 .container .endButtons {
-  -webkit-transform: translateY(2.5%);
-          transform: translateY(2.5%);
+  line-height: 75px;
+  text-align: center;
 }
 
 .container a {
@@ -49,12 +54,21 @@
   font-family: 'Overpass', sans-serif;
   font-weight: 600;
   color: white;
+  font-size: 60px;
 }
 
 .container p {
   text-align: center;
   color: white;
   font-family: 'Overpass', sans-serif;
+  font-size: 16px;
+  padding-top: 3vh;
+}
+
+.container .buttonBottom {
+  text-align: center;
+  padding-top: 5vh;
+  padding-bottom: 12vh;
 }
 
 .container .signUp {
@@ -62,5 +76,31 @@
   height: 5vh;
   border-radius: 40px 40px 40px 40px;
   border: black;
+}
+
+.container .platformButtonA {
+  height: 6vh;
+  width: 7vw;
+  border-radius: 40px 40px 40px 40px;
+  font-size: 16px;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 600;
+  background: #fff;
+  color: #ff8c73;
+  border-color: #ff8c73;
+  border-style: solid;
+}
+
+.container .platformButtonB {
+  height: 6vh;
+  width: 7vw;
+  border-radius: 40px 40px 40px 40px;
+  font-size: 16px;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 600;
+  background: #ffffff00;
+  color: #fff;
+  border-color: #fff;
+  border-style: solid;
 }
 /*# sourceMappingURL=main.css.map */
